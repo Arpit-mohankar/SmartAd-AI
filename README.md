@@ -19,24 +19,22 @@
 - **⚡ Fast Processing** - Optimized for API quota management (50 searches/run)
 
 ## 📁 Project Structure
-'''
 AdSmart-AI/
-├── 📄 README.md # Project documentation
-├── 📄 requirements.txt # Python dependencies
-├── 🔒 .env.example # Environment variables template
-├── ⚙️ config.example.yaml # Configuration template
-├── 🚫 .gitignore # Git ignore rules
-├── 🚀 main.py # Core pipeline engine
-├── 🌐 app.py # Streamlit web interface
-└── 📁 src/ # Source code modules
-├── 📄 init.py
-├── 🌐 scraper.py # Website content scraper
-├── 🔍 keyword_research.py # SERP API keyword research
-├── 📊 data_processor.py # Keyword processing & scoring
-├── 🎯 ad_group_builder.py # Ad group organization
-└── 🤖 llm_helper.py # OpenAI integration
+├── 📄 README.md              # Project documentation
+├── 📄 requirements.txt       # Python dependencies
+├── 🔒 .env.example           # Environment variables template
+├── ⚙️ config.example.yaml    # Configuration template
+├── 🚫 .gitignore             # Git ignore rules
+├── 🚀 main.py                # Core pipeline engine
+├── 🌐 app.py                 # Streamlit web interface
+└── 📁 src/                   # Source code modules
+    ├── 📄 __init__.py
+    ├── 🌐 scraper.py         # Website content scraper
+    ├── 🔍 keyword_research.py# SERP API keyword research
+    ├── 📊 data_processor.py  # Keyword processing & scoring
+    ├── 🎯 ad_group_builder.py# Ad group organization
+    └── 🤖 llm_helper.py      # OpenAI integration
 
-'''
 ## 🛠️ Local Setup
 
 ### Prerequisites
