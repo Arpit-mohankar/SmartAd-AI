@@ -1,0 +1,32 @@
+brand:
+  name: Brand
+  website: https://myntra.com
+budgets:
+  pmax_ads: 2000
+  search_ads: 5000
+  shopping_ads: 3000
+competitor:
+  name: Competitor
+  website: https://ajio.com
+geo_targeting:
+  country: US
+  language: en
+keyword_settings:
+  conversion_rate: 0.02
+  min_search_volume: 500
+  mode: minimal_content
+output:
+  directory: ./data/outputs
+  formats:
+  - csv
+  - json
+scoring:
+  competition_weight: 0.3
+  cpc_weight: 0.2
+  search_volume_weight: 0.5
+service_locations:
+- Mumbai
+- pune
+- delhi
+- banglore
+- hyderabad
