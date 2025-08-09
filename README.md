@@ -19,6 +19,7 @@
 - **⚡ Fast Processing** - Optimized for API quota management (50 searches/run)
 
 ## 📁 Project Structure
+```
 AdSmart-AI/
 ├── 📄 README.md              # Project documentation
 ├── 📄 requirements.txt       # Python dependencies
